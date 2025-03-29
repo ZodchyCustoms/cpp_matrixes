@@ -1,3 +1,5 @@
+// Create a matrix like an int**
+
 #include <iostream>
 using namespace std;
 
@@ -22,11 +24,7 @@ int main()
     cout << "Matrix sum = " << endl;
     int** pSumMatr = sumMatr(pMatr1, pMatr2, row, col);
     printM(pSumMatr, row, col, '3');
-
     
-
-
-
 
     return 0;
 }
